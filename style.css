@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+.bat{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.orange-div{
+    width: 370px;
+    height: 160px;
+    background-color: #ECAA53;
+    position: relative;
+}
+
+.top{
+    width: 130px;
+    height: 60px;
+    background-color: #191919;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+}
+.center-head{
+    width: 30px;
+    height: 50px;
+    background-color: #ECAA53;
+    position: relative;
+    top: -35px;
+    left: 173px;
+}
+.center-head .left-dot, .right-dot{
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #ECAA53;
+    position: absolute;
+}
+.left-dot{
+    top: -9px;
+    left: -10px;
+}
+.right-dot{
+    top: -9px;
+    right: -10px;
+}
+
+
+.bottom-left, .bottom-right{
+    width: 200px;
+    height: 100px;
+    background-color: #191919;
+    position: absolute;
+    bottom: -45px;
+    border-radius: 50%;
+}
+.bottom-left{
+    left: 0px;
+    transform: rotate(5deg);
+}
+.bottom-right{
+    right: -10px;
+    transform: rotate(-5deg);
+}
+.right, .left{
+    width: 200px;
+    height: 220px;
+    background-color: #191919;
+    position: absolute;
+    top: -5px;
+    right: -130px;
+    border-radius: 50%;
+}
+.left{
+    left: -130px;
+}
